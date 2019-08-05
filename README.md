@@ -6,7 +6,7 @@ Processing is a programming language specifically designed for visual artists, d
 To run and write Processing, you would generally [download the latest version of Processing](https://processing.org/download/) but given we don't have a lot of time today - we're going to get up and running right in our browser on a variant called p5. p5.js is a JavaScript library based on Processing but is written slightly differently.
 
 ## p5 Editor
-[Sign up for an account](https://editor.p5js.org/) to write your code in the browser. Create an account and press play. You can only save files when you're logged in. So to make sure you don't lose any work - make sure you're logged in.
+[Sign up for an account](https://editor.p5js.org/) to write your code in the browser. Create an account and make sure you're signed in successfully. You can only save files when you're signed in. So to make sure you don't lose any work - make sure you're signed in. Once you're in - press 'Play'. A gray square should appear to the right of the text on screen.
 
 When you've signed in, copy and paste the following into the left-hand side and let's chat about what it's doing. Press 'Play'.
 
