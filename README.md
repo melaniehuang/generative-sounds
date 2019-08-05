@@ -1,6 +1,21 @@
 # generative-sounds
 
 ```javascript
+function setup() {
+  createCanvas(450, 300);
+  background(255);
+}
+
+function draw() {
+  background(255);
+  ellipse(width/2,height/2,100,100)
+}
+```
+
+
+
+
+```javascript
 var mic;
 
 function setup() {
