@@ -20,7 +20,7 @@ function setup() {
 function draw() {
   //everything inside these brackets runs over and over and over
   background(255);
-  ellipse(width/2,height/2,100,100)
+  ellipse(400,400,100,100);
 }
 ```
 
