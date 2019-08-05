@@ -1,4 +1,4 @@
-# Generative Sounds x Linden New Art gallery
+# Generative Sounds x Linden New Art
 
 Today we're going to make visuals from sound with a programming language called Processing.
 Processing is a programming language specifically designed for visual artists, designers and hobbyists as well as those learning how to code(so you're in safe hands!).
