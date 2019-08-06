@@ -34,6 +34,53 @@ So here we've told the computer to:
 2. Log the words "Hello world!" in the console
 3. Every time we run the function draw(), log the words "Hello friend!"
 
+## My first rectangle
+Now let's do something more exciting. Let's draw a rectangle and see what's going on.
+
+```javascript
+function setup() {
+  //this runs once
+  createCanvas(450, 300);
+  console.log("Hello world!");
+}
+
+function draw() {
+  //this runs over and over and over
+  rect(100,100,50,50);
+}
+```
+
+Can you describe what is happening in this sketch in plain english? Change some numbers and it should become fairly obvious :)
+
+## Co-ordinates
+
+To tell the computer where to draw something, you will need to give it an x and y coordinate. You may remember these bad boys from maths class but in Computer Graphics, it’s a little different.
+
+The top left corner (x,y) is (0,0). The x coordinates increase to the right, the y coordinates INCREASE moving down the canvas.
+
+```javascript
+(0,0)___________ (900,0)
+|                      |
+|                      |
+|                      |
+|                      |
+|                      |
+|                      |
+|                      |
+(0,900) ________ (900,900)
+```
+
+Therefore rect() accepts the following 4 parameters:
+
+```javascript
+//rect(x, y, width, height);
+rect(0, 0, 200, 200);
+```
+
+By default, rect() accepts the x & y position of the rectangle’s top left corner.
+Now, let’s add some colour!
+
+## Colours!
 
 
 ```javascript
