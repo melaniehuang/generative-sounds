@@ -74,13 +74,47 @@ Therefore rect() accepts the following 4 parameters:
 
 ```javascript
 //rect(x, y, width, height);
-rect(0, 0, 200, 200);
+rect(100,100,50,50);
 ```
 
 By default, rect() accepts the x & y position of the rectangle’s top left corner.
 Now, let’s add some colour!
 
-## Colours!
+## Sequence, colour and fill
+
+So to add a fill to the rectangle, we need to add a line _above_ our rect() function:
+```javascript
+fill(169,225,250);
+```
+
+By default, Processing interprets your numbers as RGB colours - the amount of red, green and blue you want to mix into a single colour. When we write something like:
+```javascript
+fill(255);
+```
+the computer is actually interpreting that to be:
+```javascript
+fill(255,255,255); 
+```
+
+**Try the following:**
+
+```javascript
+function setup(){
+  createCanvas(450, 300);
+  console.log("Hello world!");
+  background(248,250,169);
+}
+
+function draw(){
+  fill(169,225,250);
+  rect(100,100,50,50);
+}
+```
+
+
+
+
+
 
 
 ```javascript
