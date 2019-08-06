@@ -14,18 +14,25 @@ When you've signed in, copy and paste the following into the left-hand side and 
 
 ```javascript
 function setup() {
-  //everything inside these brackets runs once
+  //this runs once
   createCanvas(450, 300);
-  background(255);
+  console.log("Hello world!");
 }
 
 function draw() {
-  //everything inside these brackets runs over and over and over
-  background(255);
-  ellipse(400,400,100,100);
+  //this runs over and over and over
+  console.log("Hello friend!");
 }
 ```
 
+You've successfully written your first sketch!
+
+Functions are like mini programs and the main two functions that exist in p5 are setup() and draw(). setup() runs once at the start of our sketch and draw() runs over and over again on repeat until you press stop.
+
+So here we've told the computer to:
+1. Create a canvas 450px wide and 300px tall
+2. Log the words "Hello world!" in the console
+3. Every time we run the function draw(), log the words "Hello friend!"
 
 
 
